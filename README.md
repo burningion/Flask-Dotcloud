@@ -18,4 +18,10 @@ When you're done running your server:
      
      $ dotcloud destroy projectname
 
-Have fun!
+## Gotchas
+
+Don't ever have a git repo in the root directory of your project. DotCloud freaks out silently.
+
+Wrap everything in a directory instead, like this project.
+
+Oh, and have fun!
