@@ -20,8 +20,12 @@ When you're done running your server:
 
 ## Gotchas
 
-Don't ever have a git repo in the root directory of your project. DotCloud freaks out silently.
+~~Don't ever have a git repo in the root directory of your project. DotCloud freaks out silently.~~
 
-Wrap everything in a directory instead, like this project.
+Does dotCloud seem to be acting funny with your Git project? That's because by default it only pushes the last commit.
+
+So if you're working on a project, and you want your changes to be seen, either do a git commit, or:
+
+   $ dotcloud push --all projectname
 
 Oh, and have fun!
