@@ -26,6 +26,6 @@ Does dotCloud seem to be acting funny with your Git project? That's because by d
 
 So if you're working on a project, and you want your changes to be seen, either do a git commit, or:
 
-   $ dotcloud push --all projectname
+      $ dotcloud push --all projectname
 
 Oh, and have fun!
