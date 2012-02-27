@@ -4,7 +4,7 @@ Minimum project example to get you up and running with Flask and dotCloud.
 
 ## Installation
 
-Copy the code, and then run the following to get started:
+Checkout the code, change to the project directory, and then run the following to get started:
      
      $ dotcloud create projectname
      $ dotcloud push projectname
